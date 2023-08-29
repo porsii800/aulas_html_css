@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Basico</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu  nome" required>
+        </div>
+
+        <!-- input radio -->
+        <div>
+            <p> melhor time do brasil?</p>
+            <div>
+                <input type="radio" id="Vasco" name="time">
+                <label for="Vasco">vascao da gama </label>
+               </div>
+                <div>
+                <input type="radio" id="Corinthians" name="time">
+                <label for="Corinthians">Coringao </label>
+              </div>
+            </div>
+        </div>
+
+
+        <!-- select -->
+        <div>
+            <label for="turma"> Escolha sua turma </label>
+            <select name="turma" id="turma">
+                <option disabled selected> Selecione... </option>
+                 <option value="01ta">01TA</option>
+                 <option value="01tb">01TB</option>
+                 <option value="01tc">01TC</option>
+            </select>
+        </div>
+
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
